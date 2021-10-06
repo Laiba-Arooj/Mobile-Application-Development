@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ZoomAppDesign</string>
+    <string name="meet_chat"><![CDATA[Meet & Chat]]></string>
+    <string name="starred">Starred</string>
+    <string name="contacts">Find People and Start Chatting</string>
+    <string name="add_contacts">Add Contacts</string>
+    <string name="text">Text</string>
+    <string name="settings">Setting</string>
+    <string name="Meetings">Meetings</string>
+    <string name="cont">Contacts</string>
+</resources>
