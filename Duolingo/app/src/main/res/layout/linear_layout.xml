@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LinearLayout"
+    android:orientation="vertical"
+    android:background="@color/light_black">
+
+    <ImageView
+        android:layout_width="254dp"
+        android:layout_height="254dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="80dp"
+        android:src="@drawable/spread">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="100dp"
+        android:src="@drawable/duolingotrade"
+        android:tint="@color/LimeGreen"
+        tools:ignore="UseAppTint">
+
+    </ImageView>
+
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:text="@string/duolingotext"
+        android:textColor="@color/Silver"
+        android:textSize="25sp">
+
+    </TextView>
+
+    <Button
+        android:layout_width="360dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="120dp"
+        app:cornerRadius="20dp"
+        android:backgroundTint="@color/BrightDuoligo"
+        android:textColor="@color/Black"
+        android:textSize="20sp"
+        android:text="@string/get_started">
+
+    </Button>
+
+    <Button
+        android:layout_width="360dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="20dp"
+        app:cornerRadius="20dp"
+        android:backgroundTint="#4A3F3F"
+        android:textColor="@color/BrightDuoligo"
+        android:textSize="18sp"
+        android:text="@string/already">
+
+    </Button>
+
+
+</LinearLayout>
