@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FYP_Practice</string>
+    <string name="sign_in">Sign In</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="already_have_an_account">Already have an Account?</string>
+    <string name="new_user">Dons\'t have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="retype_password">Retype Password</string>
+    <string name="send_link">Send Link</string>
+    <string name="or">--- OR ---</string>
+    <string name="cancel">Cancel</string>
+</resources>
