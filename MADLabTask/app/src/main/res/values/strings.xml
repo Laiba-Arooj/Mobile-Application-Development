@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MAD LabTask</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="profile">Profile</string>
+    <string name="nickname">Nickname</string>
+    <string name="rem">Remember my credentials</string>
+    <string name="checkBox">checkBox</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_email">Enter Email</string>
+</resources>
