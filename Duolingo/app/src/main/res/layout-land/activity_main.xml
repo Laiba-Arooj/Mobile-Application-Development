@@ -9,8 +9,8 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="126dp"
-        android:layout_height="98dp"
+        android:layout_width="113dp"
+        android:layout_height="84dp"
         android:layout_marginStart="69dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="88dp"
@@ -18,48 +18,48 @@
         android:src="@drawable/spread"
         app:layout_constraintBottom_toTopOf="@+id/imageView3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.453"
+        app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         tools:ignore="ContentDescription">
 
     </ImageView>
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="272dp"
-        android:layout_height="84dp"
-        android:layout_marginTop="24dp"
+        android:layout_width="246dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="6dp"
         android:src="@drawable/duolingotrade"
         android:tint="@color/LimeGreen"
         app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.471"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView4"
         tools:ignore="ContentDescription,UseAppTint" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="236dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="100dp"
+        android:layout_width="207dp"
+        android:layout_height="43dp"
         android:text="@string/duolingotext"
         android:textColor="@color/Silver"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/button3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintHorizontal_bias="0.48"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3">
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.718">
 
     </TextView>
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="360dp"
-        android:layout_height="77dp"
-        android:layout_marginTop="50dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="2dp"
         android:backgroundTint="@color/BrightDuoligo"
         android:text="@string/get_started"
         android:textColor="@color/Black"
@@ -67,7 +67,6 @@
         app:cornerRadius="20dp"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.516"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2">
 
@@ -75,12 +74,9 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="360dp"
-        android:layout_height="77dp"
-        android:layout_marginStart="35dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="30dp"
         android:backgroundTint="#4A3F3F"
         android:text="@string/already"
         android:textColor="@color/BrightDuoligo"
@@ -88,10 +84,9 @@
         app:cornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintHorizontal_bias="0.499"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3"
-        app:layout_constraintVertical_bias="0.314">
+        app:layout_constraintTop_toBottomOf="@+id/button3">
 
     </Button>
 
