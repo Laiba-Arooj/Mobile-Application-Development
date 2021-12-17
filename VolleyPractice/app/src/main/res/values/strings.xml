@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">VolleyPractice</string>
+    <string name="parse_json">Parse JSON</string>
+    <string name="click_here_to_send_req">Click here to send Req</string>
+</resources>
