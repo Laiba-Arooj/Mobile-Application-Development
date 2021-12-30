@@ -1,0 +1,7 @@
+{
+    "app_id": "mongo_app-abunm",
+    "config_version": 20210101,
+    "name": "Mongo_App",
+    "location": "US-VA",
+    "deployment_model": "LOCAL"
+}
