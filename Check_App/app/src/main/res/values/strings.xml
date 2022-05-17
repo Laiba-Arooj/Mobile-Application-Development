@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Check_App</string>
+    <string name="enter_tweet_url">Enter Tweet URL</string>
+    <string name="predict">Predict</string>
+</resources>
